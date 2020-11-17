@@ -1,0 +1,287 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+body header .ico {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: red;
+}
+
+body header .ico i {
+  margin: 10px 20px 10px 0px;
+  font-size: 20px;
+}
+
+body header .ico i:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+}
+
+body header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .title p {
+  width: 30%;
+  margin: 10px 20px;
+}
+
+body header .title p img {
+  width: 50%;
+}
+
+body header .title .list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3rem;
+  color: red;
+  margin: 10px 4px;
+}
+
+body header .title .list li {
+  margin-right: 2rem;
+}
+
+body header .title .list li:hover {
+  color: black;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .mainer {
+  background-image: url("../img/0.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+body main .mainer .mainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+body main .mainer .mainer2 .text1 {
+  text-align: center;
+  width: 35%;
+}
+
+body main .mainer .mainer2 .text1 p:nth-of-type(1) {
+  font-size: 3rem;
+  color: red;
+  font-weight: bold;
+}
+
+body main .mainer .mainer2 .text1 p:nth-of-type(2) {
+  font-size: 5rem;
+  color: red;
+}
+
+body main .mainer .mainer2 .text1 p:nth-of-type(3) {
+  font-size: 1.5rem;
+  color: white;
+}
+
+body main .mainer .mainer2 .text2 {
+  width: 45%;
+  -webkit-box-shadow: 0px 5px 15px #2c2c2c;
+          box-shadow: 0px 5px 15px #2c2c2c;
+  border-radius: 10px;
+}
+
+body main .mainer .mainer2 .text2 form {
+  padding: 20px;
+}
+
+body main .mainer .mainer2 .text2 form button {
+  background-color: red;
+  border-color: red;
+}
+
+body main .list2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1rem;
+}
+
+body main .list2 ul {
+  list-style-type: none;
+  text-align: center;
+  width: 20%;
+  margin: 40px 0px;
+}
+
+body main .list2 ul li:nth-of-type(1) {
+  color: red;
+  font-size: 3rem;
+}
+
+body main .list2 ul li:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body main .list2 ul li:nth-of-type(3) {
+  color: gray;
+}
+
+body main .list2 ul li:nth-of-type(4) {
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+body main .map {
+  margin: 0px 5px;
+}
+
+body footer {
+  background-color: #010124;
+  height: 400px;
+}
+
+body footer .ico2 {
+  color: white;
+  height: 70%;
+  border: 3px solid black;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .ico2 i {
+  margin-right: 20px;
+  font-size: 2rem;
+  padding: 10px 10px;
+  background-color: gray;
+  border-radius: 2rem;
+}
+
+body footer .ico2 i:nth-of-type(2) {
+  padding: 11px 18px;
+}
+
+body footer .ico2 i:nth-of-type(3) {
+  padding: 12px 14px;
+}
+
+body footer .ico2 i:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  body header .title {
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+  }
+  body header .title p {
+    width: 20%;
+    margin: 5px 0px;
+  }
+  body header .title p img {
+    width: 100%;
+  }
+  body header .title .list {
+    font-size: 0.6rem;
+    margin: 5px;
+  }
+  body header .title .list li {
+    margin-right: 0.5rem;
+  }
+  body main .mainer .mainer2 .text1 {
+    width: 100%;
+  }
+  body main .mainer .mainer2 .text2 {
+    width: 90%;
+  }
+  body main .list2 ul {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body header .title {
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+  }
+  body header .title p {
+    width: 20%;
+    margin: 5px 0px;
+  }
+  body header .title p img {
+    width: 100%;
+  }
+  body header .title .list {
+    font-size: 1rem;
+    margin: 5px;
+  }
+  body header .title .list li {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body header .title {
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+  }
+  body header .title p {
+    width: 15%;
+    margin: 5px 0px;
+  }
+  body header .title p img {
+    width: 100%;
+  }
+  body header .title .list {
+    font-size: 1.2rem;
+    margin: 5px;
+  }
+  body header .title .list li {
+    margin-right: 0.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
